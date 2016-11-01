@@ -3,6 +3,8 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+setwd('C:/INFO201/m12-plotly/exercise-2')
+getwd
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
