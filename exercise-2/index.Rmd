@@ -28,11 +28,13 @@ chart <- plot_ly(data, x = ~Bodywt, y = ~Brainwt, type = 'scatter',
                       range = c(0,1400)))
 
 
+
 ```
 
 # Interactive Chart
 
 This is an interactive chart made with Plotly (taken from the [documentation](https://plot.ly/r/text-and-annotations/)).
 
-`r chart`.
+`r chart`
+
 
