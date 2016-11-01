@@ -17,7 +17,7 @@ Bodywt <- c(10.0, 207.0, 62.0, 6.8, 52.2)
 Brainwt <- c(115, 406, 1320, 179, 440)
 data <- data.frame(Primates, Bodywt, Brainwt)
 
-chart <- plot_ly(data, x = ~Bodywt, y = ~Brainwt, type = 'scatter',
+plot_ly(data, x = ~Bodywt, y = ~Brainwt, type = 'scatter',
         mode = 'text', text = ~Primates, textposition = 'middle right',
         textfont = list(color = 'brown', size = 10)) %>%
         layout(title = 'Primates Brain and Body Weight',
@@ -35,6 +35,5 @@ chart <- plot_ly(data, x = ~Bodywt, y = ~Brainwt, type = 'scatter',
 
 This is an interactive chart made with Plotly (taken from the [documentation](https://plot.ly/r/text-and-annotations/)).
 
-`r chart`
 
 
